@@ -1,1 +1,69 @@
+h2{
+    text-align: center;
+    font-size: 50px;
+    padding: 1rem;
+    text-shadow: -2px 2px 0 #000;
+    color: rgb(247, 58, 11);
+}
+.calculator{
+    background-color: black;
+    padding: 2rem;
+    margin: auto;
+    gap: 1rem;
+    display: flex;
+    width:40%;
+    height:70%;
+    flex-direction: column;
+    border: 2px solid black;
+}
+.display{
+    background-color: black;
+    border: 5px solid white;
+    text-align: end;
+    font-size: 40px;
+    padding: .5rem;
+    color: rgb(199, 24, 24);
+    text-shadow: 2px -2px 0 rgb(155, 41, 66);
+}
+.numpad{
+    border: 2px solid black;
+    display: flex;
+}
 
+.digits{
+ 
+    justify-content: center;
+    border: 2px solid black;
+    width: 80%;
+    padding: .5rem;
+}
+
+.digits button{
+    display: inline-block;
+    margin: .3rem;
+    font-size: 100px;
+}
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.equal, .clear, .backspace{
+    padding: 1rem;
+
+   
+}
+.equal button, .clear button, .backspace button{
+    overflow-wrap:break-word;
+    display: block;
+    width: 10rem;
+    font-size: 53px;
+}
+
+.operators button{
+    margin-bottom: .4rem;
+    display: block;
+    width: 5rem;
+    font-size: 45px;
+}
